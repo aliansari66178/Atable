@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: vazir;
+    src: url('Vazir-Code.woff');
+}
+@font-face {
+    font-family: tanha;
+    src: url(Tanha.woff);
+}
+
+section {
+    border: 2px solid #00b8cc00;
+    padding: 3px;
+    width: 250px;
+    text-align: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 10px;
+    writing-mode: horizontal-tb
+}
+article {
+    border: 2px solid #00cc5291;
+    display: block;
+    height: 100px;
+    width: 240px;
+    font-family: tanha;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+    writing-mode: horizontal-tb;
+}
+aside {
+    border: 2px solid #0000;
+    display: block;
+    height: 50px;
+    width: 240px;
+}
+div {
+    width: 240px;
+    overflow: visible;
+}
+::-webkit-scrollbar {
+    background-color: #0de9da;
+    box-shadow: inset 0px -1px 13px #02af53;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0px -1px 13px #0205af;
+    border-radius: 10px;
+}
